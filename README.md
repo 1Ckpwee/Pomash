@@ -8,14 +8,15 @@ Pomash is a lightweight blog system. Powered by Tornado Web Framework.
 Build up
 ====
 
-Note: The Python environment has been updated to 3.7.1. So I am not sure whether Pomash works properly under the 2.x version of Python.
+**Requirements**
+- python version >= 3.x
 
 How to get Pomash:
 
 ```shell
 git clone https://github.com/JmPotato/Pomash.git
 cd Pomash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 You should edit the `settings.py` to set up before running `run.py`. Here is a explanation for `settings.py`:
 
